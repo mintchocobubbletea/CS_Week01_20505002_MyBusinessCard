@@ -70,9 +70,9 @@
             label2.Font = new Font("맑은 고딕", 10F);
             label2.Location = new Point(247, 155);
             label2.Name = "label2";
-            label2.Size = new Size(112, 19);
+            label2.Size = new Size(162, 19);
             label2.TabIndex = 0;
-            label2.Text = "수원대학교 학생";
+            label2.Text = "수원대학교 학생(재학중)";
             // 
             // Form1
             // 
