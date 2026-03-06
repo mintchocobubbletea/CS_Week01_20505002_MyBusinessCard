@@ -35,6 +35,7 @@
             label3 = new Label();
             button2 = new Button();
             button3 = new Button();
+            label4 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -113,11 +114,22 @@
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("맑은 고딕", 10F);
+            label4.Location = new Point(239, 192);
+            label4.Name = "label4";
+            label4.Size = new Size(186, 19);
+            label4.TabIndex = 5;
+            label4.Text = "Github: mintchocobubbletea";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(617, 339);
+            Controls.Add(label4);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -127,6 +139,7 @@
             Controls.Add(label1);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -141,5 +154,6 @@
         private Label label3;
         private Button button2;
         private Button button3;
+        private Label label4;
     }
 }

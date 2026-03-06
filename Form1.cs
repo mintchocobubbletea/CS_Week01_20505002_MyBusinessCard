@@ -38,5 +38,10 @@ namespace WinFormsApp3
         {
             pictureBox1.BorderStyle = BorderStyle.None;
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("안녕하세요! 제 디지털 명합입니다.");
+        }
     }
 }
